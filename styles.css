@@ -1,10 +1,20 @@
+body{
+    padding-inline: 16rem;
+}
+
 header{
     border: solid;
-
+   
 }
 
 main{
     border: solid;
+    border-block: none;
+    display: grid;
+    grid-template-areas: 
+    "artc-pro artc-exp artc-edu"
+    "artc-pro artc-osw artc-edu";
+    grid-template-columns: 20% 40% 40%;
 }
 
 footer{
@@ -13,5 +23,101 @@ footer{
 
 article{
     border: solid;
+    border-top: none;
 }
 
+.head-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.header-hero{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 2em 0;
+}
+
+ul{
+    margin: 0;
+}
+
+.artc-exp{
+    grid-area: artc-exp;
+}
+
+.artc-edu{
+    grid-area: artc-edu;
+    border-inline: none;
+    border-bottom: none;
+}
+
+.artc-osw{
+    grid-area: artc-osw;
+    border-bottom: none;
+}
+
+.artc-pro{
+    grid-area: artc-pro;
+}
+
+.artc-pro > p:not(:last-child) {
+    border-bottom: solid;
+}
+
+.artc-pro > * {
+    padding-inline: 2rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.artc-edu > * {
+    padding-inline: 2rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.artc-osw > * {
+    padding-inline: 2rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.artc-exp > * {
+    padding-inline: 2rem 0;
+    padding-bottom: 0.5rem;
+}
+
+.footer-bh{
+    border: solid;
+    border-radius: 25px;
+    margin-inline: 1rem ;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem ;
+}
+
+.footer-response{
+    display: flex;
+    margin-inline: 0 3rem;
+    gap: 1rem;
+}
+
+.footer-bh > p{
+    margin: 1rem;
+}
+
+.all-rights{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}

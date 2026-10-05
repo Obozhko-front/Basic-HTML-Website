@@ -8,22 +8,25 @@
 </head>
 <body>
     <header>
-    <h3 class="your-name">Oleksandr Bozhko</h3>
+    <div class="head-nav-bar">
+        <h3 class="your-name">Oleksandr Bozhko</h3>
 
-    <a class="head-nav" href="#">Projects</a>
-    /
-    <a class="head-nav" href="#">Home</a>
-    /
-    <a class="head-nav" href="#">Articles</a>
-    /
-    <a class="head-nav" href="#">Contact</a>
+        <div>
+            <a class="head-nav-link" href="#">Projects</a>
+            /
+            <a class="head-nav-link" href="#">Home</a>
+            /
+            <a class="head-nav-link" href="#">Articles</a>
+            /
+            <a class="head-nav-link" href="#">Contact</a>
+        </div>
+    </div>
 
-
-    <h1>Frontent Developer</h1>
+    <h1 class="header-hero">Frontent Developer</h1>
     </header>
     
     <main>
-    <aside class="aside-projects">
+    <aside class="artc-pro">
         <h4>Projects</h4>
         <p>HTML Only Portfolio</p>
         <p>Calculator</p>
@@ -32,7 +35,7 @@
         <p>Product Upcoming Page</p>
     </aside>
 
-    <article>
+    <article class="artc-exp">
         <h4>Work Experience</h4>
         <p>roadmap.sh 
             <br>
@@ -41,57 +44,53 @@
         <a href="#">Visit my Profile</a>
     </article>
 
-    <article>
+    <article class="artc-osw">
         <h4>OpenSource Work</h4>
         <p>Contributed to 0 opensource projects. Made my own project with 0 GitHub Stars.</p>
         <a href="#">visit my GitHub Profile</a>
     </article>
 
-    <article>
+    <article class="artc-edu">
         <h4>Education</h4>
         <p>Graduadet with 3.76 of 4 CGPA. Won Acme Hackathon. Organized 30 ssesions.</p>
         <p>Courses i took:</p>
-        <p>-Object Oriented Programming
-            <br>
-            -Data Structurs and Algorithms
-            <br>
-            -Web Engineering
-            <br>
-            -Artificial Intelegence
-            <br>
-            -Human Computer Interaction
-            <br>
-            -Database Management Systems
-            <br>
-            -Discreet Mathematics
-        </p>
+        <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structurs and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelegence</li>
+            <li>Human Computer Interaction</li>
+            <li>Database Management Systems</li>
+            <li>Discreet Mathematics</li>
+        </ul>
     </article>
     </main>
     <footer>
         <h4>Reviews from my Teachers</h4>
-        <div>
-            <p>Oleksandr was a brilliant student; always stood out with his assigments.</p>
-            <p>Jane Doe
-                <br>
-                Assistant Professor
-            </p>
+        <div class="footer-response">
+            <span class="footer-bh">
+                <p>Oleksandr was a brilliant student; always stood out with his assigments.</p>
+             <p>Jane Doe
+                 <br>
+                 Assistant Professor
+              </p>
+           </span>
+            <span class="footer-bh">
+               <p>Oleksandr was a brilliant student; always stood out with his assigments.<br></p>
+               <p>Jane Doe
+                   <br>
+                 Assistant Professor
+             </p>
+          </span>
+            <span class="footer-bh">
+               <p>Oleksandr was a brilliant student; always stood out with his assigments.<br></p>
+               <p>Jane Doe
+                  <br>
+                  Assistant Professor
+              </p>
+          </span>
         </div>
-         <div>
-            <p>Oleksandr was a brilliant student; always stood out with his assigments.</p>
-            <p>Jane Doe
-                <br>
-                Assistant Professor
-            </p>
-        </div>
-         <div>
-            <p>Oleksandr was a brilliant student; always stood out with his assigments.</p>
-            <p>Jane Doe
-                <br>
-                Assistant Professor
-            </p>
-        </div>
-
-        <p>&copy;All rights reserved 2026</p>
+        <div class="all-rights"><p><b>&copy;All rights reserved 2026</b></p></div>
     </footer>
 </body>
 </html>
