@@ -1,5 +1,5 @@
 body{
-    padding-inline: 16rem;
+    padding-inline: 20%;
 }
 
 header{
@@ -120,4 +120,12 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.main-project{
+    display: block;
+}
+
+.pad-cont{
+    padding: 1rem;
 }
